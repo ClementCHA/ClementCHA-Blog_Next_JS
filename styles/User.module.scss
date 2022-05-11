@@ -1,0 +1,41 @@
+.container {
+ display: flex; 
+ justify-content: center;
+}
+
+.card{
+  margin-top: 30px;
+  border: solid rgb(230, 230, 230) 1px;
+  border-radius: 5px;
+  padding: 20px 15px;
+  width: 450px;
+  &_name{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+  }
+  &_username{
+    color: grey;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  &_list{
+
+    border: solid rgb(230, 230, 230) 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+
+    & li {
+      font-size: 12px;
+      padding: 10px 10px;
+
+      &:not(last-child){
+        border-bottom: solid rgb(230, 230, 230) 1px;
+        ;
+      }
+    }
+
+  }
+
+}
