@@ -3,7 +3,6 @@ import React from "react";
 import styles from "../../styles/Article.module.scss";
 
 const article = ({ article }) => {
-  console.log(article);
   return (
     <div className={styles.container}>
       <h1 className={styles.title}> {article.title}</h1>
