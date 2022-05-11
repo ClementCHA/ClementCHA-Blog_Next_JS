@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.text{
+  margin-top: 40px;
+  width: 90vw;
+  max-width: 1000px;
+}

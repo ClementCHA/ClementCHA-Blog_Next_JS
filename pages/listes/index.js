@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import styles from "../../styles/Blog.module.scss";
+import styles from "../../styles/Listes.module.scss";
 import { v4 as uuidv4 } from "uuid";
 
 const index = ({ users }) => {
