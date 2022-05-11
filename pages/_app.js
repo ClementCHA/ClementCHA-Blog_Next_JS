@@ -1,6 +1,7 @@
-import "../styles/globals.css";
 import Container from "../components/Container/Container";
-import "bootstrap/dist/css/bootstrap.css";
+
+import "../styles/reset.css";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
